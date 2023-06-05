@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Compete') {
+        stage('Remove Compete') {
             steps {
-                echo 'Job complete'
+                echo 'new pipeline Job complete'
             }
         }
      }
